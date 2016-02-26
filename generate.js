@@ -1,10 +1,9 @@
 var fs = require('fs');
 var PNG = require('node-png').PNG;
-var util = require("util");
 var noise = require('./libs/perlin.js').noise;
+noise.seed(Math.random());
 
 var config = JSON.parse(fs.readFileSync('generate.json', 'utf8'));
-noise.seed(Math.random());
 
 function generate(){
 	var png = new PNG({
@@ -50,7 +49,6 @@ function fractallikePerlin(x,y){
 function getPerlinValue(x,y,size,strength){
 		return (Math.abs(noise.perlin2(x/size, y/size)) * strength) * 256;
 }
-
 
 generate();
 
