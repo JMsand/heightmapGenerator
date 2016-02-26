@@ -1,7 +1,5 @@
 # heightmapGenerator
-Configurable image generator using perlin noise 
-
--Generates png files with fractallike noise which can be used for terrain maps/textures
+Configurable image generator using perlin noise. Generates png files with fractallike noise which can be used for terrain maps/textures
 
 REQUIRES
 Node version 5.0.0
@@ -16,10 +14,10 @@ USAGE:
 CONFIG: 
 generate.json contains these settings
 
-height: height in pixels output image.
-width: width in pixels output image.
+height: height in pixels output image
+width: width in pixels output image
 levels : iterations of generated noise applied to each other
-levelsize : factor which decreases the level size with each iteration.
+levelsize : factor which decreases the level size with each iteration
 startingsize : first level size 
 startingstrength : first level strength
 outputDarkness: increasing this means lowering image data values
