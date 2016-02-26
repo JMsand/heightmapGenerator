@@ -22,8 +22,8 @@ Configurable image generator using perlin noise. Generates png files with fracta
 - startingstrength : first level strength
 - outputDarkness: increasing this means lowering image data values
 - output : name of output file
-<p>*Level is also know as octave</p>
-<p>*Size in this the config is related to the length of gradients/slopes</p>
+<p>* Level is also know as octave</p>
+<p>* Size is related to the length of gradients/slopes</p>
 
 <h3>SOURCES:</h3>
 - http://www.neilblevins.com/cg_education/fractal_noise/fractal_noise.html
