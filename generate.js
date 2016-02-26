@@ -23,9 +23,8 @@ function generatePng(png){
 		console.log("creating png line : " + x);
 		image[x] = new Array();
 	  for (var y = 0; y <= png.height; y++) {
-		image[x][y] = fractallikePerlin(x,y);
 		var idx = (png.width * y + x) << 2;
-		var pixelData = image[x][y] / config.outputDarkness;
+		var pixelData = fractallikePerlin(x,y) / config.outputDarkness;
 		png.data[idx] = pixelData;
 		png.data[idx+1] = pixelData;
 		png.data[idx+2] = pixelData;
