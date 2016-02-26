@@ -1,15 +1,15 @@
 # heightmapGenerator
 Configurable image generator using perlin noise. Generates png files with fractallike noise which can be used for terrain maps/textures
 
-REQUIRES
+<h2>REQUIRES</h2>
 Node version 5.0.0
 
 INSTALLATION:
-1. 'npm install' in directory.
+- 'npm install' in directory.
 
 USAGE:
-1. Edit generate.json to your preferred settings
-2. 'node generate.js' which will generate a image in the same directory
+- Edit generate.json to your preferred settings
+- 'node generate.js' which will generate a image in the same directory
 
 CONFIG: 
 generate.json contains these settings
@@ -23,12 +23,12 @@ startingstrength : first level strength
 outputDarkness: increasing this means lowering image data values
 output : name of output file
 
-*A level is also know as octave
-*Size in this these cases is related to the length of gradients/slopes
+-A level is also know as octave
+-Size in this the config is related to the length of gradients/slopes
 
 SOURCES:
-http://www.neilblevins.com/cg_education/fractal_noise/fractal_noise.html
-http://libnoise.sourceforge.net/noisegen/index.html
+-http://www.neilblevins.com/cg_education/fractal_noise/fractal_noise.html
+-http://libnoise.sourceforge.net/noisegen/index.html
 
 EXTRA:
 'node convertToLandscape.js' to create water,plains,mountains terrain. Expects a bg.png to exist in directory
