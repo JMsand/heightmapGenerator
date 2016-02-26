@@ -1,0 +1,21 @@
+{
+  "name": "heightmap",
+  "version": "1.0.0",
+  "description": "create perlin heightmap",
+  "main": "generate.js",
+  "dependencies": {
+    "node-png": "^0.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run"
+  },
+  "keywords": [
+    "generate",
+    "2d",
+    "height",
+    "map"
+  ],
+  "author": "Sand",
+  "license": "MIT"
+}

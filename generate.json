@@ -1,0 +1,10 @@
+{
+	"height": 1500,
+	"width": 1500,
+	"levels" : 16,
+	"levelsize" : 0.5,
+	"startingsize" : 600,
+	"startingstrength" : 0.5,
+	"outputDarkness": 2,
+	"output" : "bg.png"
+}
