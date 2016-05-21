@@ -1,3 +1,5 @@
+[![Package Quality](http://npm.packagequality.com/shield/heightmapGenerator.png)](http://packagequality.com/#?package=heightmapGenerator)
+
 # heightmapGenerator
 Configurable image generator using perlin noise. Generates png files with fractal-like perlin noise which can be used for terrain maps/textures
 
